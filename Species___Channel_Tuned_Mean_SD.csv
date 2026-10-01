@@ -1,0 +1,6 @@
+Model,Accuracy,Macro F1,Positive Class F1,Sensitivity,Specificity
+LR,59.5%  ± 31.1%,32.5%  ± 27.8%,,,
+LDA,56.6%  ± 31.2%,29.7%  ± 26.4%,,,
+SVM,76.4%  ± 29.2%,54.7%  ± 35.7%,,,
+RF,82.0%  ± 28.4%,66.1%  ± 35.6%,,,
+XGBoost,75.8%  ± 29.1%,52.9%  ± 35.1%,,,

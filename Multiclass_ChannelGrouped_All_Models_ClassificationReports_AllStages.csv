@@ -1,0 +1,76 @@
+Model,Stage,Class,Condition,Precision,Recall,F1-score,Support,Reported Metric,Reported Value
+Logistic Regression,Baseline,0,CoNS-Only,0.7832,0.7917,0.7874,648,,
+Logistic Regression,Baseline,25,CoNS + S. aureus (75:25),0.7872,0.7994,0.7933,648,,
+Logistic Regression,Baseline,50,CoNS + S. aureus (50:50),0.7319,0.75,0.7409,648,,
+Logistic Regression,Baseline,75,CoNS + S. aureus (25:75),0.7512,0.713,0.7316,648,,
+Logistic Regression,Baseline,Overall Accuracy,,,,,,Accuracy,0.7635
+Logistic Regression,Top Features,0,CoNS-Only,0.7654,0.7654,0.7654,648,,
+Logistic Regression,Top Features,25,CoNS + S. aureus (75:25),0.786,0.7824,0.7842,648,,
+Logistic Regression,Top Features,50,CoNS + S. aureus (50:50),0.712,0.7515,0.7312,648,,
+Logistic Regression,Top Features,75,CoNS + S. aureus (25:75),0.7659,0.7269,0.7458,648,,
+Logistic Regression,Top Features,Overall Accuracy,,,,,,Accuracy,0.7566
+Logistic Regression,Tuned,0,CoNS-Only,0.7872,0.7762,0.7817,648,,
+Logistic Regression,Tuned,25,CoNS + S. aureus (75:25),0.7997,0.7948,0.7972,648,,
+Logistic Regression,Tuned,50,CoNS + S. aureus (50:50),0.7315,0.7608,0.7458,648,,
+Logistic Regression,Tuned,75,CoNS + S. aureus (25:75),0.7654,0.75,0.7576,648,,
+Logistic Regression,Tuned,Overall Accuracy,,,,,,Accuracy,0.7704
+LDA,Baseline,0,CoNS-Only,0.8006,0.787,0.7938,648,,
+LDA,Baseline,25,CoNS + S. aureus (75:25),0.7729,0.767,0.7699,648,,
+LDA,Baseline,50,CoNS + S. aureus (50:50),0.7159,0.7623,0.7384,648,,
+LDA,Baseline,75,CoNS + S. aureus (25:75),0.7588,0.7284,0.7433,648,,
+LDA,Baseline,Overall Accuracy,,,,,,Accuracy,0.7612
+LDA,Top Features,0,CoNS-Only,0.7627,0.7392,0.7508,648,,
+LDA,Top Features,25,CoNS + S. aureus (75:25),0.7539,0.7515,0.7527,648,,
+LDA,Top Features,50,CoNS + S. aureus (50:50),0.6797,0.7269,0.7025,648,,
+LDA,Top Features,75,CoNS + S. aureus (25:75),0.7408,0.7145,0.7274,648,,
+LDA,Top Features,Overall Accuracy,,,,,,Accuracy,0.733
+LDA,Tuned,0,CoNS-Only,0.7697,0.7531,0.7613,648,,
+LDA,Tuned,25,CoNS + S. aureus (75:25),0.7802,0.7778,0.779,648,,
+LDA,Tuned,50,CoNS + S. aureus (50:50),0.7071,0.7377,0.7221,648,,
+LDA,Tuned,75,CoNS + S. aureus (25:75),0.7453,0.7315,0.7383,648,,
+LDA,Tuned,Overall Accuracy,,,,,,Accuracy,0.75
+SVM,Baseline,0,CoNS-Only,0.853,0.8596,0.8563,648,,
+SVM,Baseline,25,CoNS + S. aureus (75:25),0.846,0.8904,0.8677,648,,
+SVM,Baseline,50,CoNS + S. aureus (50:50),0.8457,0.8627,0.8541,648,,
+SVM,Baseline,75,CoNS + S. aureus (25:75),0.8674,0.7978,0.8312,648,,
+SVM,Baseline,Overall Accuracy,,,,,,Accuracy,0.8526
+SVM,Top Features,0,CoNS-Only,0.835,0.7809,0.807,648,,
+SVM,Top Features,25,CoNS + S. aureus (75:25),0.8356,0.8627,0.8489,648,,
+SVM,Top Features,50,CoNS + S. aureus (50:50),0.7932,0.8287,0.8106,648,,
+SVM,Top Features,75,CoNS + S. aureus (25:75),0.8062,0.7963,0.8012,648,,
+SVM,Top Features,Overall Accuracy,,,,,,Accuracy,0.8171
+SVM,Tuned,0,CoNS-Only,0.8474,0.7886,0.8169,648,,
+SVM,Tuned,25,CoNS + S. aureus (75:25),0.8309,0.8719,0.8509,648,,
+SVM,Tuned,50,CoNS + S. aureus (50:50),0.8082,0.8194,0.8138,648,,
+SVM,Tuned,75,CoNS + S. aureus (25:75),0.8067,0.8117,0.8092,648,,
+SVM,Tuned,Overall Accuracy,,,,,,Accuracy,0.8229
+Random Forest,Baseline,0,CoNS-Only,0.724,0.7207,0.7224,648,,
+Random Forest,Baseline,25,CoNS + S. aureus (75:25),0.6916,0.713,0.7021,648,,
+Random Forest,Baseline,50,CoNS + S. aureus (50:50),0.6872,0.7593,0.7214,648,,
+Random Forest,Baseline,75,CoNS + S. aureus (25:75),0.7584,0.659,0.7052,648,,
+Random Forest,Baseline,Overall Accuracy,,,,,,Accuracy,0.713
+Random Forest,Top Features,0,CoNS-Only,0.6983,0.7392,0.7181,648,,
+Random Forest,Top Features,25,CoNS + S. aureus (75:25),0.6909,0.7037,0.6972,648,,
+Random Forest,Top Features,50,CoNS + S. aureus (50:50),0.7198,0.7454,0.7324,648,,
+Random Forest,Top Features,75,CoNS + S. aureus (25:75),0.7704,0.6836,0.7244,648,,
+Random Forest,Top Features,Overall Accuracy,,,,,,Accuracy,0.718
+Random Forest,Tuned,0,CoNS-Only,0.7809,0.8086,0.7945,648,,
+Random Forest,Tuned,25,CoNS + S. aureus (75:25),0.7661,0.8086,0.7868,648,,
+Random Forest,Tuned,50,CoNS + S. aureus (50:50),0.7878,0.8194,0.8033,648,,
+Random Forest,Tuned,75,CoNS + S. aureus (25:75),0.8384,0.7284,0.7795,648,,
+Random Forest,Tuned,Overall Accuracy,,,,,,Accuracy,0.7913
+XGBoost,Baseline,0,CoNS-Only,0.7227,0.7361,0.7294,648,,
+XGBoost,Baseline,25,CoNS + S. aureus (75:25),0.7229,0.7207,0.7218,648,,
+XGBoost,Baseline,50,CoNS + S. aureus (50:50),0.7293,0.7068,0.7179,648,,
+XGBoost,Baseline,75,CoNS + S. aureus (25:75),0.7249,0.7361,0.7305,648,,
+XGBoost,Baseline,Overall Accuracy,,,,,,Accuracy,0.7249
+XGBoost,Top Features,0,CoNS-Only,0.6917,0.696,0.6938,648,,
+XGBoost,Top Features,25,CoNS + S. aureus (75:25),0.7012,0.7207,0.7108,648,,
+XGBoost,Top Features,50,CoNS + S. aureus (50:50),0.7121,0.7099,0.711,648,,
+XGBoost,Top Features,75,CoNS + S. aureus (25:75),0.6943,0.6728,0.6834,648,,
+XGBoost,Top Features,Overall Accuracy,,,,,,Accuracy,0.6998
+XGBoost,Tuned,0,CoNS-Only,0.7169,0.7269,0.7218,648,,
+XGBoost,Tuned,25,CoNS + S. aureus (75:25),0.711,0.7253,0.7181,648,,
+XGBoost,Tuned,50,CoNS + S. aureus (50:50),0.7288,0.7423,0.7355,648,,
+XGBoost,Tuned,75,CoNS + S. aureus (25:75),0.7231,0.6852,0.7036,648,,
+XGBoost,Tuned,Overall Accuracy,,,,,,Accuracy,0.7199
